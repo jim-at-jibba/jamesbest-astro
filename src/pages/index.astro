@@ -11,6 +11,7 @@ interface MarkdownFrontmatter {
 }
 
 const title = "James Best"
+const seoTitle = "James Best | Software Engineer"
 const description =
   "Hello, I'm James. I'm a software engineer and hacker from Bristol, UK."
 const seoDescription = "A Bristol based software engineer."
@@ -25,7 +26,7 @@ const sortedPosts = allPosts.sort(
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={seoDescription} />
+    <BaseHead title={seoTitle} description={seoDescription} />
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">

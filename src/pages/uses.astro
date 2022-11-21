@@ -1,0 +1,192 @@
+---
+import BaseHead from "../components/Head/BaseHead.astro"
+import Nav from "../components/Nav.astro"
+import HomeHeader from "../components/HomeHeader.astro"
+import Footer from "../components/Footer/Footer.astro"
+
+interface MarkdownFrontmatter {
+  date: number
+  pubDate: number
+}
+
+const title = "Uses"
+const description = "All the gear I use"
+const seoDescription = "A Bristol based software engineer."
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={seoDescription} />
+  </head>
+
+  <body class="bg-white text-black font-body leading-normal personality-casual">
+    <Nav />
+
+    <main class="py-12 lg:py-20">
+      <article class="max-w-6xl mx-auto px-3">
+        <HomeHeader title={title} description={description} />
+        <section class="content" data-test="uses-section">
+          <h2 class="text-2xl font-bold mb-4">Desk</h2>
+          <img
+            class="rounded-xl mx-auto"
+            style="min-width: 80%;"
+            loading="lazy"
+            src="/images/office.jpg"
+            alt={title}
+          />
+        </section>
+        <p>Custom made extra deep desk, with foot rest and Ikea chair.</p>
+
+        <section class="content" data-test="uses-section">
+          <h2 class="text-2xl font-bold mb-4">On the desk</h2>
+          <p>
+            I use a 2021 16in Macbook Pro M1 Max (always in calmshell position
+            in a{" "}
+            <a href="https://www.amazon.co.uk/dp/B07TVMD7R7/" target="_blank">
+              MOSISO laptop stand
+            </a>
+            ). Connected to that are 2 AOC monitors on monitor arms. One is 32in
+            4K and the other 27in. There is nothing special about them.
+          </p>
+          <p>
+            I use a{" "}
+            <a
+              href="https://www.keyboardco.com/keyboard/usa-topre-realforce-87uw-Variable-mini-black-on-beige-keyboard.asp"
+              target="_blank"
+            >
+              Realforce 87u
+            </a>{" "}
+            keyboard and a Logitech MX mouse.
+          </p>
+          <p>
+            Lighting is provided by a vintage Anglepoise desk lamp and an LED
+            strip behind the desk.
+          </p>
+          <p>
+            Other bits include:
+            <ul>
+              <li>Logitech C920 webcam</li>
+              <li>Blue Yeti Nano Mic</li>
+              <li>Cambridge Audio amp and speakers</li>
+              <li>Hakko soldering iron</li>
+              <li>Epson V800 film scanner</li>
+            </ul>
+          </p>
+          <h2 class="text-2xl font-bold mb-4">Software</h2>
+          <p>
+            I do all my development in a terminal, leaning on Kitty with NeoVim
+            and Tmux.
+          </p>
+          <p>
+            My dotfiles can be found{" "}
+            <a href="https://github.com/jim-at-jibba/my-dots" target="_blank">
+              here.
+            </a>{" "}
+            I use the awesome{" "}
+            <a href="https://www.monolisa.dev/" target="_blank"> MonoLisa</a>
+          </p>
+          <p>My essential cli tools include:</p>
+          <ul>
+            <li>
+              <a href="https://github.com/wting/autojump" target="_blank">
+                autojump
+              </a>{" "}
+              : A cd command that learns - easily navigate directories from the command
+              line
+            </li>
+            <li>
+              <a href="https://github.com/sharkdp/bat" target="_blank"> bat</a>{
+                " "
+              }
+              : A cat(1) clone with wings.
+            </li>
+            <li>
+              <a href="https://github.com/junegunn/fzf" target="_blank">
+                fzf
+              </a>{" "}
+              : A command-line fuzzy finder
+            </li>
+            <li>
+              <a href="https://github.com/BurntSushi/ripgrep" target="_blank">
+                ripgrep
+              </a>{" "}
+              : ripgrep recursively searches directories for a regex pattern
+            </li>
+            <li>
+              <a href="https://hisham.hm/htop/" target="_blank"> htop</a>{" "}
+              : an interactive process viewer for Unix systems
+            </li>
+            <li>
+              <a href="https://httpie.org/" target="_blank"> httpie</a>{" "}
+              : a command-line HTTP client
+            </li>
+            <li>
+              <a href="https://stedolan.github.io/jq/" target="_blank"> jq</a>{
+                " "
+              }
+              : jq is a lightweight and flexible command-line JSON processor
+            </li>
+          </ul>
+          <h2 class="text-2xl font-bold mb-4">Other Software</h2>
+          <ul>
+            <li>
+              <a href="https://www.raycast.com/" target="_blank"> Raycast</a>
+            </li>
+            <li>
+              <a href="https://cleanshot.com/" target="_blank"> CleanShot X</a>
+            </li>
+            <li>
+              <a href="https://eggerapps.at/postico/" target="_blank">
+                Postico
+              </a>
+            </li>
+            <li>
+              <a href="https://protonvpn.com/" target="_blank"> Proton VPN</a>
+            </li>
+            <li>
+              <a href="https://portswigger.net/burp" target="_blank">
+                Burp Suite
+              </a>
+            </li>
+            <li>
+              <a href="https://www.balena.io/etcher/" target="_blank">
+                Balena Etcher
+              </a>
+            </li>
+            <li>
+              <a href="https://apps.ankiweb.net/" target="_blank"> Anki</a>
+            </li>
+            <li>
+              <a href="http://easyresapp.com/" target="_blank"> EasyRes</a>
+            </li>
+          </ul>
+
+          <h2 class="text-2xl font-bold mb-4">EDC</h2>
+          <p>I like to keep my EDC simple.</p>
+          <ul>
+            <li>
+              <p>Slip Wallet: Nothing special, small and simple</p>
+            </li>
+            <li>
+              <p>Leuchtturm1917 notebook: Small dotted</p>
+            </li>
+            <li>
+              <p>Kaweco Classic Sport Rollerball: Stunning pen</p>
+            </li>
+            <li>
+              <p>Keys</p>
+            </li>
+            <li>
+              <p>Olympus XA: Best small 35mm camera money can buy</p>
+            </li>
+            <li>
+              <p>Citizen Promaster Aqualand watch: A gift from my mum</p>
+            </li>
+          </ul>
+        </section>
+
+        <Footer />
+      </article>
+    </main>
+  </body>
+</html>
