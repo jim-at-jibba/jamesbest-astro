@@ -3,7 +3,7 @@ slug: "/essential-terminal-packages-2020"
 title: "Essential terminal packages in 2020"
 description: "These are the CLI packages I cant live without."
 pubDate: "2020-06-26"
-hero: "../images/posts/favourite-cli/exa.png"
+hero: "/images/posts/favourite-cli/exa.png"
 tags: ["productivity"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
@@ -25,13 +25,13 @@ This is my chosen shell. It has way too many features to list here but here are 
 - spelling correction and approximate completion: If you make a small mistake typing a directory name, ZSH will fix it for you
 - plugin and theme support: ZSH includes many different plugin frameworks. This is where [`oh-my-zsh`](https://ohmyz.sh/) comings in. Its a community drive framework for managing your ZSH configuration.
 
-![ZSH](../images/posts/favourite-cli/zsh.png)
+![ZSH](/images/posts/favourite-cli/zsh.png)
 
 ## 2. FZF
 
 [FZF](https://github.com/junegunn/fzf) is a command-line fuzzy finder. It is super fast, light and works so well with all my other tools.
 
-![fzf](../images/posts/favourite-cli/fzf.png)
+![fzf](/images/posts/favourite-cli/fzf.png)
 
 ## 3. RipGrep (rg)
 
@@ -49,19 +49,19 @@ This is my chosen shell. It has way too many features to list here but here are 
 
 [Bat](https://github.com/sharkdp/bat) is a drop-in replacement for `cat` but with superpowers. It's highly configurable and supports syntax highlighting.
 
-![Bat](../images/posts/favourite-cli/bat.png)
+![Bat](/images/posts/favourite-cli/bat.png)
 
 ## 7. exa
 
 [exa](https://the.exa.website/) is a modern replacement for `ls`. It is highly configurable, provides better defaults.
 
-![HTTPie](../images/posts/favourite-cli/exa.png)
+![HTTPie](/images/posts/favourite-cli/exa.png)
 
 ## 8. twf
 
 [twf](https://github.com/wvanlint/twf) is a tree view explorer inspired by fzf.
 
-![HTTPie](../images/posts/favourite-cli/twf.png)
+![HTTPie](/images/posts/favourite-cli/twf.png)
 
 You can find my dotfiles [here](https://github.com/jim-at-jibba/my-dots). This is how I use them, how will you?
 
