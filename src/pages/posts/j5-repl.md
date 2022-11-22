@@ -2,7 +2,7 @@
 slug: "/johhny-five-repl-esp8266"
 title: "Javascript robotics: The Johnny Five REPL"
 description: "Lets interact with your Javascript robots"
-pubdate: "2020-06-05"
+pubDate: "2020-06-05"
 hero: "/images/posts/j5-esp/repl.png"
 tags: ["robotics", "javascript", "esp8266"]
 layout: "../../layouts/BlogPostLayout.astro"
