@@ -73,7 +73,7 @@ dtc base64 encode -u
 
 ### Decode
 
-> Encode and Decode base64 strings in both standard and URL compatible formats
+**Encode and Decode base64 strings in both standard and URL compatible formats**
 
 <details>
   <summary>Example</summary>
