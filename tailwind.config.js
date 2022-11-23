@@ -5,7 +5,7 @@ module.exports = {
   ],
   important: true,
   theme: {
-    borderColor: (theme) => ({
+    borderColor: theme => ({
       ...theme("colors"),
       default: theme("colors.black", "currentColor"),
     }),
@@ -97,6 +97,7 @@ module.exports = {
       colors: {
         black: "#12151E",
         "hot-pink": "#fd2d78",
+        cyan: "#45f9e5",
       },
       fontFamily: {
         display: ["Londrina Solid", "sans-serif"],
@@ -110,4 +111,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}

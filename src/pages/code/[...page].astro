@@ -2,13 +2,13 @@
 import BaseHead from "../../components/Head/BaseHead.astro"
 import Nav from "../../components/Nav.astro"
 import HomeHeader from "../../components/HomeHeader.astro"
-import Card from "../../components/Card.astro"
+import CodeCard from "../../components/CodeCard.astro"
 import Footer from "../../components/Footer/Footer.astro"
 import Paginator from "../../components/Paginator.astro"
 
 export async function getStaticPaths({ paginate }) {
-  const allPosts = await Astro.glob<MarkdownFrontmatter>("./*.md")
-  const sortedPosts = allPosts.sort(
+  const allCode = await Astro.glob<MarkdownFrontmatter>("./*.md")
+  const sortedPosts = allCode.sort(
     (a, b) =>
       new Date(b.frontmatter.pubDate).valueOf() -
       new Date(a.frontmatter.pubDate).valueOf()
@@ -20,9 +20,9 @@ export async function getStaticPaths({ paginate }) {
 }
 
 const { page } = Astro.props
-let pageTitle = "Articles"
-let pageDescription = `page ${page.currentPage} of all articles`
-let seoTitle = "Articles | Creek"
+let pageTitle = "Code"
+let pageDescription = `page ${page.currentPage} of all projects`
+let seoTitle = "Code | James Best | Software Engineer"
 let seoDescription = ""
 ---
 
@@ -44,7 +44,7 @@ let seoDescription = ""
           {
             page.data.map(p => (
               <div class="col-span-1">
-                <Card post={p} />
+                <CodeCard post={p} />
               </div>
             ))
           }
