@@ -126,3 +126,20 @@ dtc file-share --expiry=4w
 ![FILE SHARE](/images/code/file-share.gif)
 
 </details>
+
+### JWT Debugger
+
+> Debug JWT - Validity is not tested!
+
+The output of this command is automatically copied to the clipboard 📋
+
+<details>
+  <summary>Example</summary>
+
+```bash
+dtc jwt-debugger
+```
+
+![JWT DEBUGGER](/images/code/jwt-debugger.gif)
+
+</details>
