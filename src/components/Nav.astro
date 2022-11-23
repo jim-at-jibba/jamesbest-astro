@@ -1,4 +1,6 @@
 ---
+const pathname = new URL(Astro.request.url).pathname
+const currentPath = pathname.slice(1).split("/")[0]
 ---
 
 <nav>
@@ -9,7 +11,7 @@
       <a href="/" class="font-bold text-xl hover:text-hot-pink">JamesBest</a>
     </div>
     <div class="flex flex-row">
-      <a href="/search" class="pr-1">
+      <a href="/search" class={currentPath === "" ? "active pr-1" : "pr-1"}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
@@ -24,9 +26,18 @@
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
         </svg>
       </a>
-      <a href="/uses" class="font-bold text-xl hover:text-hot-pink pr-1">USES</a
+      <a
+        href="/uses"
+        class={currentPath === "uses"
+          ? "text-cyan font-bold text-xl hover:text-hot-pink pr-1"
+          : "font-bold text-xl hover:text-hot-pink pr-1"}>USES</a
       >
-      <a href="/code" class="font-bold text-xl hover:text-hot-pink">CODE</a>
+      <a
+        href="/code"
+        class={currentPath === "code"
+          ? "text-cyan font-bold text-xl hover:text-hot-pink pr-1"
+          : "font-bold text-xl hover:text-hot-pink pr-1"}>CODE</a
+      >
     </div>
   </div>
   <div class="w-full border-b-2 border-black squiggle"></div>
