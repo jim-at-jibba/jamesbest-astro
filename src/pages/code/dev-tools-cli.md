@@ -1,6 +1,6 @@
 ---
 slug: "/dev-tools-cli"
-title: "DTC CLI package"
+title: "DTC :: CLI package"
 descriptionion: "A collection of tools that you would normally reach to a browser for."
 pubDate: "2022-11-23"
 hero: "/images/code/dtc.jpg"
