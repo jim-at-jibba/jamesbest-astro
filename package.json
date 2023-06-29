@@ -15,7 +15,7 @@
     "mark.js": "^8.11.1",
     "prettier-plugin-astro": "^0.7.0",
     "sass": "^1.55.0",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.2.7"
   },
   "dependencies": {
     "@astrojs/rss": "^1.0.2",
