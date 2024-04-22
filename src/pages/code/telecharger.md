@@ -11,6 +11,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 > Telecharger is a [Youtube-DL](https://github.com/ytdl-org/youtube-dl) TUI
 
 ![Form](/images/code/telecharger.gif)
+### [Telecharger Repo](https://github.com/jim-at-jibba/dtc)
 
 Telecharger is a [Youtube-DL](https://github.com/ytdl-org/youtube-dl) TUI. It provides the ability to build lists of videos you wish to download, rename the files, saving as audio only and a host of other functionality.
 
