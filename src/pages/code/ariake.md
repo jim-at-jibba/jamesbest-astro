@@ -10,10 +10,8 @@ layout: "../../layouts/BlogPostLayout.astro"
 
 > Beautiful, dark colour theme for Neovim
 
-<div align="center">
-    <h1>Ariake</h1>
-</div>
 
+### [Ariake Repo](https://github.com/jim-at-jibba/ariake.nvim)
 
 ## Install
 
