@@ -8,7 +8,7 @@ tags: ["lua", "neovim", "tool"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
-> Beautiful, dark colour schema for Neovim
+> Beautiful, dark colour theme for Neovim
 
 <div align="center">
     <h1>Ariake</h1>
