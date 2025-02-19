@@ -3,7 +3,7 @@ slug: "/thought-scribe"
 title: "ThoughtScribe :: AI Speech-to-Text App"
 descriptionion: "Transform your speech into polished text with AI-powered transcription"
 pubDate: "2024-03-10"
-hero: "/images/code/thought-scribe-main.png"
+hero: "/images/code/thoughtscribe-main.png"
 tags: ["app", "ai", "react-native"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
@@ -50,10 +50,12 @@ ThoughtScribe transforms speech into polished text. Record your thoughts natural
 
 Available on:
 
-- [Download on the App Store](https://apps.apple.com/app/thoughtscribe/id123456789)
-- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.thoughtscribe)
+### Coming Soon to the App Store and Google Play
 
-## Screenshots
+<!-- - [Download on the App Store](https://apps.apple.com/app/thoughtscribe/id123456789)
+- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.thoughtscribe) -->
+
+<!-- ## Screenshots
 
 <img alt="Recording View" src="/images/code/thought-scribe-record.png" />
-<img alt="Transcription View" src="/images/code/thought-scribe-text.png" />
+<img alt="Transcription View" src="/images/code/thought-scribe-text.png" /> -->
