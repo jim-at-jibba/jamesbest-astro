@@ -10,6 +10,8 @@ layout: "../../layouts/BlogPostLayout.astro"
 
 ThoughtScribe transforms speech into polished text. Record your thoughts naturally, and let our AI transform them into clear, well-structured text - perfect for notes, articles, or any written content.
 
+[Website](https://thoughtscribe.uk/)
+
 ## Features
 
 ### Effortless Recording
